@@ -94,6 +94,16 @@ main {
 }
 
 .informacion {
+    display: flex;    
+}
+
+.informacion__texto {
     color: #495057;
     font-size: 18px;
+}
+
+.informacion__icono {
+    padding-top: 30px;
+    width: 1%;
+    position:fixed;
 }
