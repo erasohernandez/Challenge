@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Challenge Aluralatam</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/img/Logo.png" alt="Logo de alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="texto-entrada" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="texto-salida" cols="20" rows="10"></textarea>          
+            <div>
+                <button class="boton-copiar" onclick="copiar()">Copiar</button>
+            </div>            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
